@@ -1,15 +1,15 @@
 {
     "choose_browser": "patchright",
     "email_suffix": "@outlook.com",
-    "proxy": "http://127.0.0.1:7897",
+    "proxy": "socks5://208.102.51.6:58208",
     "bot_protection_wait": 16,
     "max_captcha_retries": 3,
     "concurrent_flows": 3,
     "max_tasks": 5,
     "oauth2": {
-        "enable_oauth2": false,
-        "client_id": "",
-        "redirect_url": "",
+        "enable_oauth2": true,
+        "client_id": "b1cece2b-789e-4ea1-952e-204be62c75c6",
+        "redirect_url": "https://rwoutlook.121810.xyz/token-tool/callback",
         "Scopes": [
             "offline_access",
             "https://graph.microsoft.com/Mail.ReadWrite",
